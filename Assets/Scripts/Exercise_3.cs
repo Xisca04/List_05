@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Exercise_3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // One to a counter and GAME OVER
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
