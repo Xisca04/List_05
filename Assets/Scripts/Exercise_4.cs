@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Exercise_4 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string letter;
+    private bool isVowel(string letter)
     {
-        
+        if(letter == "a"|| letter == "b")
+        {
+            return true;
+        }
+        return false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        isVowel(letter);
     }
 }

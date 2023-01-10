@@ -4,7 +4,28 @@ using UnityEngine;
 
 public class Exercise_3 : MonoBehaviour
 {
-    // One to a counter and GAME OVER
+    // GAME OVER
 
+    public int counter;
+
+    private void Counter()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            counter++;
+        }
+
+        if (counter == 10)
+        {
+            Debug.Log($"GAME OVER");
+        }
+    }
+
+    private void Update()
+    {
+        Counter();
+
+    }
     
+
 }
