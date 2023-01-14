@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class Exercise_4 : MonoBehaviour
 {
-    public string letter;
-    private bool isVowel(string letter)
-    {
-        if(letter == "a"|| letter == "b")
-        {
-            return true;
-        }
-        return false;
-    }
+    // Number array
 
-    private void Update()
+    public int[] numbers;
+
+    
+    private void Start()
     {
-        isVowel(letter);
+        Debug.Log($"First elemet = 10");
+        Debug.Log($"Third elemet = -100");
+        Debug.Log($"Fifth elemet = 7");
     }
 }

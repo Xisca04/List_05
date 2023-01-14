@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Exercise_5 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Number array - more of 5 elements
 
-    // Update is called once per frame
-    void Update()
+    public int[] numbers;
+
+    private void Start()
     {
-        
+        Debug.Log($"First elemet = 10");
+        Debug.Log($"Third elemet = -100");
+        Debug.Log($"Fifth elemet = 7");
+        Debug.Log($"Seventh elemet = 25");
+        Debug.Log($"Nineth elemet = -303");
     }
 }

@@ -16,12 +16,12 @@ public class Exercise_2 : MonoBehaviour
             return true;
         }
         return false;
-
-        //Debug.Log($"{Login}");
     }
 
     private void Start()
     {
         Login(username, password);
+        
+        Debug.Log($"{Login(username, password)}");
     }
 }

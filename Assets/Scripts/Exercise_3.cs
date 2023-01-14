@@ -10,12 +10,11 @@ public class Exercise_3 : MonoBehaviour
 
     private void Counter()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.A))
         {
             counter++;
         }
-
-        if (counter == 10)
+        else if(counter== 10)
         {
             Debug.Log($"GAME OVER");
         }
@@ -24,7 +23,6 @@ public class Exercise_3 : MonoBehaviour
     private void Update()
     {
         Counter();
-
     }
     
 
