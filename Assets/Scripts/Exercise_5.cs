@@ -8,20 +8,17 @@ public class Exercise_5 : MonoBehaviour
 
     public int[] numbers;
 
-    /*
     private void Start()
     {
-        if(numbers <= 6)
+        if(numbers.Length <= 5)
         {
-            Debug.Log($"First elemet = 10");
-            Debug.Log($"Third elemet = -100");
-            Debug.Log($"Fifth elemet = 7");
+            Debug.Log($"First element = 10");
+            Debug.Log($"Third element = -100");
+            Debug.Log($"Fifth element = 7");
         }
         else
         {
             Debug.Log($"Missing elements");
         }
-        
     }
-    */
 }
