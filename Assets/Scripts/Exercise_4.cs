@@ -7,7 +7,6 @@ public class Exercise_4 : MonoBehaviour
     // Number array
 
     public int[] numbers;
-
     
     private void Start()
     {

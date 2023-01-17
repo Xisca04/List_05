@@ -8,12 +8,20 @@ public class Exercise_5 : MonoBehaviour
 
     public int[] numbers;
 
+    /*
     private void Start()
     {
-        Debug.Log($"First elemet = 10");
-        Debug.Log($"Third elemet = -100");
-        Debug.Log($"Fifth elemet = 7");
-        Debug.Log($"Seventh elemet = 25");
-        Debug.Log($"Nineth elemet = -303");
+        if(numbers <= 6)
+        {
+            Debug.Log($"First elemet = 10");
+            Debug.Log($"Third elemet = -100");
+            Debug.Log($"Fifth elemet = 7");
+        }
+        else
+        {
+            Debug.Log($"Missing elements");
+        }
+        
     }
+    */
 }
